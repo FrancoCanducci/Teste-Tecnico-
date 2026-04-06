@@ -20,7 +20,7 @@ Cada pasta funciona de forma independente e pode conter sua própria configuraç
 
 ---
 
-## ⚙️ Scripts
+# ⚙️ Scripts
 
 ```bash
 npm test              # Executa todos os testes
@@ -45,7 +45,7 @@ Este projeto segue algumas práticas importantes:
 
 ---
 
-## 📝 Observações
+# 📝 Observações
 
 Grande parte dos cenários apresentados é baseada em experiências reais de mercado, incluindo implementações já utilizadas em ambiente profissional.
 
