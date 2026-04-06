@@ -1,0 +1,26 @@
+{
+  "name": "swag-labs-qa-challenge",
+  "version": "1.0.0",
+  "description": "Este repositório contém a estratégia de testes, documentação e automação para a plataforma [Swag Labs (V1)](https://www.saucedemo.com/).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "open": "npx cypress open",
+    "test": "npm run clean:reports && npx cypress run --config viewportWidth=1280,viewportHeight=800",
+    "cy:chrome": "npx cypress run --browser chrome",
+    "clean:reports": "rm -rf cypress/reports/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "cypress": "^15.10.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}

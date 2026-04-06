@@ -1,0 +1,22 @@
+{
+  "name": "meu-repositorio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Estrutura modular: API, E2E, frontend, arquivos, mobile, pirâmide, mocks",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test parte1-api",
+    "test:files": "playwright test parte4-arquivos",
+    "test:mobile": "node --test parte5-mobile/questao5.1/testes/mobile-basic.spec.js",
+    "test:pyramid": "playwright test parte6-piramide",
+    "test:mocks": "playwright test parte7-mocks",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "appium": "^2.19.0",
+    "webdriverio": "^9.20.0",
+    "ajv": "^8.17.1",
+    "express": "^4.19.2"
+  }
+}
