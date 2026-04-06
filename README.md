@@ -1,5 +1,4 @@
-# 📁 Meu Repositório
-
+# 📁 Teste Técnico
 Este repositório reúne diferentes abordagens de testes automatizados e aplicações auxiliares, organizadas de acordo com o tipo de teste, escopo e estratégia adotada. O objetivo é demonstrar na prática a aplicação de conceitos de QA, incluindo testes de API, E2E, arquivos, mobile, mocks e pirâmide de testes.
 
 ---
