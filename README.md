@@ -15,7 +15,6 @@ Este repositório reúne diferentes abordagens de testes automatizados e aplica�
 | `parte6-piramide/` | Estrutura baseada na pirâmide de testes |
 | `parte7-mocks/` | Testes com mocks e stubs |
 
-Cada pasta funciona de forma independente e pode conter sua própria configuração e contexto.
 
 ---
 
@@ -31,23 +30,12 @@ Cada pasta funciona de forma independente e pode conter sua própria configuraç
 - `npm run test:ui` — interface do Playwright
 
 
-## 🧪 Abordagem de Testes
-
-Este projeto segue algumas práticas importantes:
-
-Separação por tipo de teste
-Testes independentes e previsíveis
-Reutilização de código
-Uso de mocks para isolamento
-Cobertura de cenários reais
-Estrutura escalável
-
 ## 📝 Observações
 
 Grande parte dos cenários apresentados é baseada em experiências reais de mercado, incluindo implementações já utilizadas em ambiente profissional.
 
 Para manter objetividade, alguns detalhes específicos foram omitidos, e parte da estrutura foi padronizada entre os projetos. Por isso, podem existir pequenas diferenças em relação às implementações originais.
 
-Em alguns casos, adaptei soluções já existentes para o contexto solicitado. Por exemplo, cenários originalmente desenvolvidos em Jest foram reproduzidos em Playwright, mantendo a mesma lógica.
+Em alguns casos, adaptei soluções já existentes para o contexto solicitado. Por exemplo, cenários originalmente desenvolvidos em Selenium foram reproduzidos em Playwright, mantendo a mesma lógica.
 
 A seção 2.1 é baseada diretamente em um teste técnico que aplico atualmente para níveis Jr–Pleno. O projeto utilizado aqui deriva de um material de mentoria, podendo conter funcionalidades e dados adicionais além do escopo solicitado.
