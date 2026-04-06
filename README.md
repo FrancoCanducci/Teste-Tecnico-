@@ -19,17 +19,17 @@ Cada pasta funciona de forma independente e pode conter sua própria configuraç
 
 ---
 
-## ⚙️ Scripts
+## Scripts
 
-``bash
-npm test              # Executa todos os testes
-npm run test:api      # Testes de API
-npm run test:e2e      # Testes E2E
-npm run test:files    # Testes com arquivos
-npm run test:mobile   # Testes mobile
-npm run test:pyramid  # Testes da pirâmide
-npm run test:mocks    # Testes com mocks
-npm run test:ui       # Interface do Playwright
+- `npm test` — executa todos os testes Playwright
+- `npm run test:api` — testes de API (`parte1-api`)
+- `npm run test:e2e` — testes E2E (`parte2-e2e`)
+- `npm run test:files` — testes de arquivos/CSV (`parte4-arquivos`)
+- `npm run test:mobile` — testes mobile (`parte5-mobile`)
+- `npm run test:pyramid` — testes da pirâmide (`parte6-piramide`)
+- `npm run test:mocks` — testes com mocks (`parte7-mocks`)
+- `npm run test:ui` — interface do Playwright
+
 
 ## 🧪 Abordagem de Testes
 
