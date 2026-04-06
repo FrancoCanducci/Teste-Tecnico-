@@ -32,7 +32,7 @@ npm run test:pyramid  # Testes da pirâmide
 npm run test:mocks    # Testes com mocks
 npm run test:ui       # Interface do Playwright
 
-🧪 Abordagem de Testes
+## 🧪 Abordagem de Testes
 
 Este projeto segue algumas práticas importantes:
 
@@ -42,7 +42,8 @@ Reutilização de código
 Uso de mocks para isolamento
 Cobertura de cenários reais
 Estrutura escalável
-📝 Observações
+
+## 📝 Observações
 
 Grande parte dos cenários apresentados é baseada em experiências reais de mercado, incluindo implementações já utilizadas em ambiente profissional.
 
