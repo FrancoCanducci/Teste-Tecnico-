@@ -29,5 +29,5 @@ Estrutura do projeto de testes e aplicações.
 
 ## Observações
 
-*  Para praticamente todas as questões, eu tenho situações parecidas (ou idênticas) reais na minha experiência, e que já produzi no passado. Resolvi utilizar eles como base nisso, porém como foi pedido para manter objetivo, decidi deixar de fora os detalhes mais específicos. Por conta disso, alguns projetos podem ter um formato levemente diferente. Em uma das questões, por exemplo, eu já tinha uma solução idêntica a necessãria, porém estava em Jest, então reproduzi a mesma estrutura no Playwright.
+*  Para praticamente todas as questões, eu tenho situações parecidas (ou idênticas) reais na minha experiência, e que já produzi no passado. Resolvi utilizar eles como base, porém como foi pedido para manter objetivo, decidi deixar de fora os detalhes mais específicos de cada experiência. Por conta disso, alguns projetos podem ter um formato levemente diferente. Em uma das questões, por exemplo, eu já tinha uma solução idêntica a necessãria, porém estava em Jest, então reproduzi a mesma estrutura no Playwright.
 *  A questão 2.1 é idêntica ao teste técnico que dou hoje na empresa em que estou, porém ela é direcionada à posição de QA Jr-Pleno. Decidi utilizar como projeto, um exemplo que tenho e uso para realizar a mentorias. Portanto, o projeto contém funcionalidades e dados adicionais
