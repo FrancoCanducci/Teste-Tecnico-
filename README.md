@@ -22,7 +22,7 @@ Cada pasta funciona de forma independente e pode conter sua própria configuraç
 
 ## ⚙️ Scripts
 
-```bash
+``bash
 npm test              # Executa todos os testes
 npm run test:api      # Testes de API
 npm run test:e2e      # Testes E2E
@@ -31,3 +31,23 @@ npm run test:mobile   # Testes mobile
 npm run test:pyramid  # Testes da pirâmide
 npm run test:mocks    # Testes com mocks
 npm run test:ui       # Interface do Playwright
+
+🧪 Abordagem de Testes
+
+Este projeto segue algumas práticas importantes:
+
+Separação por tipo de teste
+Testes independentes e previsíveis
+Reutilização de código
+Uso de mocks para isolamento
+Cobertura de cenários reais
+Estrutura escalável
+📝 Observações
+
+Grande parte dos cenários apresentados é baseada em experiências reais de mercado, incluindo implementações já utilizadas em ambiente profissional.
+
+Para manter objetividade, alguns detalhes específicos foram omitidos, e parte da estrutura foi padronizada entre os projetos. Por isso, podem existir pequenas diferenças em relação às implementações originais.
+
+Em alguns casos, adaptei soluções já existentes para o contexto solicitado. Por exemplo, cenários originalmente desenvolvidos em Jest foram reproduzidos em Playwright, mantendo a mesma lógica.
+
+A seção 2.1 é baseada diretamente em um teste técnico que aplico atualmente para níveis Jr–Pleno. O projeto utilizado aqui deriva de um material de mentoria, podendo conter funcionalidades e dados adicionais além do escopo solicitado.
